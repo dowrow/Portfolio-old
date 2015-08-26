@@ -1,5 +1,6 @@
 @import "settings";
 @import "foundation";
+@import "foundation-icons.css";
 
 // Or selectively include components
 // @import
@@ -38,3 +39,42 @@
 //   "foundation/components/type",
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
+.row {
+	margin-top: 50px;
+	margin-bottom: 50px;	
+}
+
+#avatar {
+	border-radius:50%;
+}
+
+.parallax {     
+	padding:100px;
+	min-height:300px;     
+	width:100%; 
+	text-align: center;  
+	h1, h2, h3 {
+		color:white;
+	}
+
+	.author {
+		margin-left:100%;
+		text-align:right;
+	}
+}
+
+.icon {	
+	height:60px;
+	width:60px;
+	line-height:50px;
+	border-radius:50%;
+	border: solid #000 1px;
+	text-align:center;
+	font-size:30px;
+}
+
+#apps {
+	margin-top: 50px;
+	margin-bottom: 50px;	
+	text-align:center;
+}
