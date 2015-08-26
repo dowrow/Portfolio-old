@@ -10,7 +10,7 @@
 <body>
 
   <!-- HOLA -->
-  <div id="hola" class="row">
+  <section id="hola" class="row">
     <div class="large-2 small-6 columns">
       <img id="avatar"  src="https://avatars3.githubusercontent.com/u/4643024?v=3&s=460" alt="Diego Castaño Github Avatar"/>
     </div>
@@ -18,44 +18,87 @@
       <h1>¡Hola!</h1>
       <h3>Soy Diego Castaño y me dedico a desarrollar software.</h3>
     </div>
-  </div>
+  </section>
 
-  <!-- CONTACTA (PARALLAX 1) -->   
-  <div id="keyboard" class="parallax parallax-window" data-parallax="scroll" data-image-src="img/code.jpg">
+  <!-- PARALLAX CITA-->   
+  <section class="parallax parallax-window" data-parallax="scroll" data-image-src="img/server.jpg">
     <div class="row">
         
       <h2 class="large-12 columns">«In programming the hard part isn’t solving
       problems,<br/> but deciding what problems to solve.»</h1>     
       <h3 class="author large-12 columns">Paul Graham</h3>
     </div>
-  </div>
+  </section>
 
 <!-- APPS -->
-<div id="apps" class="row">
+<section id="apps" class="row">
   <div class="large-4 columns">
     <h1><span class="fi-monitor"></span></h1>
     <h3>Videojuegos</h3>
     <p>Juegos para Android y PC.</p>
-    <button class="radius button">Saber más</button>
+    <a href="#videojuegos" class="radius button">Saber más</a>
   </div>
 
   <div class="large-4 columns">
     <h1><span class="fi-mobile"></span></h1>
     <h3>Apps Móviles</h3>
     <p>Aplicaciones para Android.</p>
-    <button class="radius button">Saber más</button>
+    <a href="#appsmoviles" class="radius button">Saber más</a>
   </div>
 
   <div class="large-4 columns">
     <h1><span class="fi-laptop"></span></h1>
     <h3>Sitios Web</h3>
     <p>Aplicaciones y páginas web.</p>
-    <button class="radius button">Saber más</button>
+    <a href="#sitiosweb" class="radius button">Saber más</a>
   </div>
-</div>
+</section>
 
-<!-- PARALLAX 2 -->
-<div id="keyboard" class="parallax parallax-window" data-parallax="scroll" data-image-src="img/coffee.jpg">
+  <!-- PARALLAX VIDEOJUEGOS-->   
+  <section class="parallax parallax-window" data-parallax="scroll" data-image-src="img/game.jpg">
+    <div class="row">
+      <h2 class="large-12 columns">Videojuegos bla bla bla bla</h1>     
+    </div>
+  </section>
+
+<!-- VIDEOJUEGOS -->
+<section id="videojuegos" class="row">
+    <h1>Videojuegos</h1>
+</section>
+
+  <!-- PARALLAX MOVILES-->   
+  <section class="parallax parallax-window" data-parallax="scroll" data-image-src="img/smartphone.jpg">
+    <div class="row">
+      <h2 class="large-12 columns">Apps bla bla bla bla</h1>
+    </div>
+  </section>
+
+<!-- APPS MÓVILES-->
+<section id="appsmoviles" class="row">
+    <h1>Apps Móviles</h1>
+</section>
+
+  <!-- PARALLAX SITIOS WEB-->   
+  <section class="parallax parallax-window" data-parallax="scroll" data-image-src="img/code.jpg">
+    <div class="row">
+      <h2 class="large-12 columns">Webs bla bla bla</h1>
+    </div>
+  </section>
+
+<!-- SITIOS WEB -->
+<section id="sitiosweb" class="row">
+  <h1>Sitios Web</h1>
+<!--
+  <h3>ShitVids.com</h3>
+  <img src="img/shitvids.png"/>
+  <h3>QuimeraTeam.com</h3>
+  <h3>Music Analyzer</h3>
+  -->
+</section>
+
+
+<!-- PARALLAX CONTACTO -->
+<section class="parallax parallax-window" data-parallax="scroll" data-image-src="img/coffee.jpg">
   <h1>Contacta conmigo</h1>
   <br/>
   <div>
@@ -65,27 +108,8 @@
     <a class="button radius" href="mailto:diego.castano@outlook.com"><span class="fi-mail"> Email</a>
   </div>
 </ul>
-</div>
+</section>
 
-<!-- VIDEOJUEGOS -->
-<div id="videojuegos" class="row">
-    <h1>Videojuegos</h1>
-</div>
-<!-- APPS MÓVILES-->
-<div id="appsmoviles" class="row">
-    <h1>Apps Móviles</h1>
-</div>
-<!-- SITIOS WEB -->
-<div id="sitiosweb" class="row">
-
-  <h1>Sitios Web</h1>
-<!--
-  <h3>ShitVids.com</h3>
-  <img src="img/shitvids.png"/>
-  <h3>QuimeraTeam.com</h3>
-  <h3>Music Analyzer</h3>
-  -->
-</div>
 
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="js/parallax.min.js"></script>
