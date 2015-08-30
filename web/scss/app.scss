@@ -78,3 +78,16 @@
 	margin-bottom: 50px;	
 	text-align:center;
 }
+
+footer {
+	padding-top:50px;
+	padding-bottom:50px;
+	min-height: 100px;
+	background-color:$primary-color;
+	color:$secondary-color;
+	text-align: center;
+
+	a {
+		color: $secondary-color;
+	}
+}
