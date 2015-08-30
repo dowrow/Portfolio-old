@@ -1,0 +1,5 @@
+/* Diego Castaño */
+/* 2015 */
+	Standards: HTML5, CSS3
+	Components: jQuery, Orbit, Reveal
+	Software: SublimeText, Git
