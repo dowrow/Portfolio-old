@@ -95,8 +95,58 @@
     </section>
 
     <!-- APPS MÓVILES-->
-    <section id="appsmoviles" class="row">
-      <h1>Apps Móviles</h1>
+    <section class="row" id="appsmoviles">
+        <h1>Apps Móviles</h1>
+        <br/><br/>
+        <div class="row">
+          <div class="large-6 columns">
+            <img class="large-4 columns left" src="img/icono-willy.png" alt="App de Willyrex"/>
+            <!-- stars -->
+            <span class="large-6 columns left">
+              
+              <h3>Willyrex</h3>
+              <i class="fi-star"></i>
+              <i class="fi-star"></i>
+              <i class="fi-star"></i>
+              <i class="fi-star"></i>
+              <i class="fi-star"></i>
+              4.51
+            <span>
+            <br/><br/><p align="justify">Esta es la aplicación oficial del youtuber Willyrex para Android, con ella podrás saber al instante cuando sube nuevos vídeos, tanto a su canal "Willyrex" como a "TheWillyrex".</p>
+
+          </div>
+
+          <img class="large-4 columns" src="img/willy.png" alt="App de Willyrex"/>
+          <div class="large-4 columns"></div>
+        </div>
+
+        <br/><br/>
+
+        <br/><br/>
+          
+        <div class="row">
+          <div class="large-6 columns">
+          <img class="large-4 columns left" src="img/icono-alfredos.png" alt="Icono de la app de Alfredos Barbacoa"/>
+            <!-- stars -->
+            <span class="large-6 columns left">
+              
+              <h3>Alfredo's Barbacoa</h3>
+              <i class="fi-star"></i>
+              <i class="fi-star"></i>
+              <i class="fi-star"></i>
+              <i class="fi-star"></i>
+              <i class="fi-star"></i>
+              4.40
+            <span>
+            <br/><br/><p align="justify">Aplicación para la cadena de restaurantes Alfredo's Barbacoa. Con esta app podrás consultar su menú, ver cómo llegar a sus locales y contactar con ellos.</p>
+
+          </div>
+
+          <img class="large-4 columns" src="img/alfredos.png" alt="App de Alfredos Barbacoa"/>
+          <div class="large-4 columns"></div>
+        </div>
+
+
     </section>
 
     <!-- PARALLAX SITIOS WEB-->   
