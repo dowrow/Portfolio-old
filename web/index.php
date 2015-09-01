@@ -33,11 +33,11 @@
   <!-- HOLA -->
   <section id="hola" class="row">
     <div class="large-2 small-6 columns">
-      <img id="avatar"  src="https://avatars3.githubusercontent.com/u/4643024?v=3&s=460" alt="Diego Castaño Github Avatar"/>
+      <img id="avatar"  src="img/avatar.png" alt="Diego Castaño Github Avatar"/>
     </div>
     <div class="large-10 small-6  columns">
       <h1>¡Hola!</h1>
-      <h3>Soy Diego Castaño y me dedico a desarrollar software.<br/>
+      <h3>Soy Diego Castaño y me dedico a desarrollar software.</h3>
     </div>
   </section>
 
@@ -85,6 +85,18 @@
     <!-- VIDEOJUEGOS -->
     <section id="videojuegos" class="row">
       <h1>Videojuegos</h1>
+      <br/>
+      <h3>Starkid Rubber Tales</h3>
+      <div class="large-12 columns flex-video widescreen youtube">
+        <iframe src="https://www.youtube.com/embed/WlQINTEtuvk" frameborder="0" allowfullscreen></iframe>
+      </div>
+      
+      <br/>
+
+      <h3>Polydot</h3>
+      <img src=""><img>
+      <p>Blabla bla bla labla bla bla labla bla bla labla bla bla </p>
+
     </section>
 
     <!-- PARALLAX MOVILES-->   
@@ -185,8 +197,7 @@
         <a class="button radius" href="https://es.linkedin.com/in/diegocastanno" target="_blank"><span class="fi-social-linkedin"> Linkedin</a>
         <a class="button radius" href="mailto:diego.castano@outlook.com" target="_blank"><span class="fi-mail"> Email</a>
       </div>
-    </ul>
-  </section>
+    </section>
 
   <footer>
   	<span class"center">
