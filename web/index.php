@@ -8,32 +8,32 @@
   <script src="bower_components/modernizr/modernizr.js"></script>
 </head>
 <body>
-<div class="fixed">
+  <div class="fixed">
 
-  <nav class="top-bar" data-topbar role="navigation">
-    <ul class="title-area">
-      <li class="name">
-        <h1><a href="#">Diego Castaño</a></h1>
-      </li>
-      <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
-    </ul>
-
-    <section class="top-bar-section">
-      <!-- Right Nav Section -->
-      <ul class="right">
-        <li><a href="#parallaxVideojuegos">Videojuegos</a></li>
-        <li><a href="#parallaxMoviles">Apps Móviles</a></li>
-        <li><a href="#parallaxWeb">Sitios Web</a></li>
-        <li><a href="#parallaxContacto">Contacto</a></li>
+    <nav class="top-bar" data-topbar role="navigation">
+      <ul class="title-area">
+        <li class="name">
+          <h1><a href="#">Diego Castaño</a></h1>
+        </li>
+        <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
       </ul>
 
-    </section>
-  </nav>
-</div>
+      <section class="top-bar-section">
+        <!-- Right Nav Section -->
+        <ul class="right">
+          <li><a href="#parallaxVideojuegos">Videojuegos</a></li>
+          <li><a href="#parallaxMoviles">Apps Móviles</a></li>
+          <li><a href="#parallaxWeb">Sitios Web</a></li>
+          <li><a href="#parallaxContacto">Contacto</a></li>
+        </ul>
+
+      </section>
+    </nav>
+  </div>
   <!-- HOLA -->
   <section id="hola" class="row">
     <div class="large-2 small-6 columns">
-      <img id="avatar"  src="img/avatar.png" alt="Diego Castaño Github Avatar"/>
+      <img class="round" src="img/avatar.png" alt="Diego Castaño Github Avatar"/>
     </div>
     <div class="large-10 small-6  columns">
       <h1>¡Hola!</h1>
@@ -86,17 +86,39 @@
     <section id="videojuegos" class="row">
       <h1>Videojuegos</h1>
       <br/>
-      <h3>Starkid Rubber Tales</h3>
-      <div class="large-12 columns flex-video widescreen youtube">
-        <iframe src="https://www.youtube.com/embed/WlQINTEtuvk" frameborder="0" allowfullscreen></iframe>
-      </div>
-      
-      <br/>
+
 
       <h3>Polydot</h3>
-      <img src=""><img>
-      <p>Blabla bla bla labla bla bla labla bla bla labla bla bla </p>
+      <br/><br/>
+      <div class="row">
 
+
+        <div class="large-4 medium-4 right columns">
+          <span id="comingsoon" class="round left">Muy pronto</span>
+        </div> 
+
+        <img class="large-offset-4 large-4 medium-4 left columns" src="img/polydot.png" alt="Beta de Polydot"/>
+        <div class="large-4 medium-4 right columns">
+
+          <ul>
+            <li>Inspirado en el clásico Snake</li>
+            <li>Conecta los puntos a contra reloj</li>
+            <li>20 niveles por descubrir</li>
+          </ul>
+
+        </div>
+      </div>
+      
+      <br/><br/>
+
+      <h3>Starkid Rubber Tales</h3>
+      <br/><br/>
+      <div class="row">
+        <div class="flex-video widescreen youtube">
+          <iframe width="2  20" height="315"  src="https://www.youtube.com/embed/WlQINTEtuvk" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>  
+      
     </section>
 
     <!-- PARALLAX MOVILES-->   
@@ -108,107 +130,107 @@
 
     <!-- APPS MÓVILES-->
     <section class="row" id="appsmoviles">
-        <h1>Apps Móviles</h1>
-        <br/><br/>
-        <div class="row">
-          <div class="large-6 columns">
-            <img class="large-4 columns left" src="img/icono-willy.png" alt="App de Willyrex"/>
-            <!-- stars -->
-            <span class="large-6 columns left">
-              
-              <h3>Willyrex</h3>
-              <i class="fi-star"></i>
-              <i class="fi-star"></i>
-              <i class="fi-star"></i>
-              <i class="fi-star"></i>
-              <i class="fi-star"></i>
-              4.51
-            <span>
-            <br/><br/><p align="justify">Esta es la aplicación oficial del youtuber Willyrex para Android, con ella podrás saber al instante cuando sube nuevos vídeos, tanto a su canal "Willyrex" como a "TheWillyrex".</p>
-
-          </div>
-
-          <img class="large-4 columns" src="img/willy.png" alt="App de Willyrex"/>
-          <div class="large-4 columns"></div>
-        </div>
-
-        <br/><br/>
-
-        <br/><br/>
-          
-        <div class="row">
-          <div class="large-6 columns">
-          <img class="large-4 columns left" src="img/icono-alfredos.png" alt="Icono de la app de Alfredos Barbacoa"/>
-            <!-- stars -->
-            <span class="large-6 columns left">
-              
-              <h3>Alfredo's Barbacoa</h3>
-              <i class="fi-star"></i>
-              <i class="fi-star"></i>
-              <i class="fi-star"></i>
-              <i class="fi-star"></i>
-              <i class="fi-star"></i>
-              4.40
-            <span>
-            <br/><br/><p align="justify">Aplicación para la cadena de restaurantes Alfredo's Barbacoa. Con esta app podrás consultar su menú, ver cómo llegar a sus locales y contactar con ellos.</p>
-
-          </div>
-
-          <img class="large-4 columns" src="img/alfredos.png" alt="App de Alfredos Barbacoa"/>
-          <div class="large-4 columns"></div>
-        </div>
-
-
-    </section>
-
-    <!-- PARALLAX SITIOS WEB-->   
-    <section id="parallaxWeb" class="parallax parallax-window" data-parallax="scroll" data-image-src="img/code.jpg">
+      <h1>Apps Móviles</h1>
+      <br/><br/>
       <div class="row">
-        <h3 class="large-12 columns">Implemento aplicaciones web con HTML5, Javascript, SASS, PHP y Java.</h3>
-      </div>
-    </section>
+        <div class="large-6 columns">
+          <img class="large-4 medium-4 small-4 columns left" src="img/icono-willy.png" alt="App de Willyrex"/>
+          <!-- stars -->
+          <span class="large-6 columns left">
 
-    <!-- SITIOS WEB -->
-    <section id="sitiosweb" class="row">
-      <h1>Sitios Web</h1>
-      <br/>
+            <h3>Willyrex</h3>
+            <i class="fi-star"></i>
+            <i class="fi-star"></i>
+            <i class="fi-star"></i>
+            <i class="fi-star"></i>
+            <i class="fi-star"></i>
+            4.51
+            <span>
+              <br/><br/><p align="justify">Esta es la aplicación oficial del youtuber Willyrex para Android, con ella podrás saber al instante cuando sube nuevos vídeos, tanto a su canal "Willyrex" como a "TheWillyrex".</p>
 
-      <h3>ShitVids.com</h3>
-      <a class="button radius right" href="http://shitvids.com" target="_blank">Visitar</a>
-      <br/>
+            </div>
 
-      <h3>QuimeraTeam.com</h3>
-      <a class="button radius right" href="http://quimera.herokuapp.com" target="_blank">Visitar</a>
-      <br/>
+            <img class="large-4 medium-4 columns" src="img/willy.png" alt="App de Willyrex"/>
+            <div class="large-4 medium-4 columns"></div>
+          </div>
 
-      <h3>Music Analyzer</h3>
-      <a class="button radius right" href="http://apps.facebook.com/music-analyzer" target="_blank">Visitar</a>
-      <br/>
-    </section>
+          <br/><br/>
+
+          <br/><br/>
+
+          <div class="row">
+            <div class="large-6 columns">
+              <img class="large-4 medium-4 small-4  columns left" src="img/icono-alfredos.png" alt="Icono de la app de Alfredos Barbacoa"/>
+              <!-- stars -->
+              <span class="large-6 columns left">
+
+                <h3>Alfredo's Barbacoa</h3>
+                <i class="fi-star"></i>
+                <i class="fi-star"></i>
+                <i class="fi-star"></i>
+                <i class="fi-star"></i>
+                <i class="fi-star"></i>
+                4.40
+                <span>
+                  <br/><br/><p align="justify">Aplicación para la cadena de restaurantes Alfredo's Barbacoa. Con esta app podrás consultar su menú, ver cómo llegar a sus locales y contactar con ellos.</p>
+
+                </div>
+
+                <img class="large-4 medium-4 columns" src="img/alfredos.png" alt="App de Alfredos Barbacoa"/>
+                <div class="large-4 medium-4 columns"></div>
+              </div>
 
 
-    <!-- PARALLAX CONTACTO -->
-    <section id="parallaxContacto" class="parallax parallax-window" data-parallax="scroll" data-image-src="img/coffee.jpg">
-      <h1>Contacta conmigo</h1>
-      <br/>
-      <div>
-        <a class="button radius" href="https://github.com/dowrow/" target="_blank"><span class="fi-social-github"></span> Github</a>
-        <a class="button radius" href="http://stackoverflow.com/users/1456710/diego-casta%C3%B1o-chillar%C3%B3n" target="_blank"><span class="fi-social-stack-overflow"> StackOverflow</a>
-        <a class="button radius" href="https://es.linkedin.com/in/diegocastanno" target="_blank"><span class="fi-social-linkedin"> Linkedin</a>
-        <a class="button radius" href="mailto:diego.castano@outlook.com" target="_blank"><span class="fi-mail"> Email</a>
-      </div>
-    </section>
+            </section>
 
-  <footer>
-  	<span class"center">
-  	Copyright Diego Castaño <?php echo date("Y"); ?> · Powered by <a href="http://foundation.zurb.com/" target="_blank">Foundation</a>
-  	</span>
-  </footer>
+            <!-- PARALLAX SITIOS WEB-->   
+            <section id="parallaxWeb" class="parallax parallax-window" data-parallax="scroll" data-image-src="img/code.jpg">
+              <div class="row">
+                <h3 class="large-12 columns">Implemento aplicaciones web con HTML5, Javascript, SASS, PHP y Java.</h3>
+              </div>
+            </section>
+
+            <!-- SITIOS WEB -->
+            <section id="sitiosweb" class="row">
+              <h1>Sitios Web</h1>
+              <br/>
+
+              <h3>ShitVids.com</h3>
+              <a class="button radius right" href="http://shitvids.com" target="_blank">Visitar</a>
+              <br/>
+
+              <h3>QuimeraTeam.com</h3>
+              <a class="button radius right" href="http://quimera.herokuapp.com" target="_blank">Visitar</a>
+              <br/>
+
+              <h3>Music Analyzer</h3>
+              <a class="button radius right" href="http://apps.facebook.com/music-analyzer" target="_blank">Visitar</a>
+              <br/>
+            </section>
 
 
-  <script src="bower_components/jquery/dist/jquery.min.js"></script>
-  <script src="js/parallax.min.js"></script>
-  <script src="bower_components/foundation/js/foundation.min.js"></script>
-  <script src="js/app.js"></script>
-</body>
-</html>
+            <!-- PARALLAX CONTACTO -->
+            <section id="parallaxContacto" class="parallax parallax-window" data-parallax="scroll" data-image-src="img/coffee.jpg">
+              <h1>Contacta conmigo</h1>
+              <br/>
+              <div>
+                <a class="button radius" href="https://github.com/dowrow/" target="_blank"><span class="fi-social-github"></span> Github</a>
+                <a class="button radius" href="http://stackoverflow.com/users/1456710/diego-casta%C3%B1o-chillar%C3%B3n" target="_blank"><span class="fi-social-stack-overflow"> StackOverflow</a>
+                <a class="button radius" href="https://es.linkedin.com/in/diegocastanno" target="_blank"><span class="fi-social-linkedin"> Linkedin</a>
+                <a class="button radius" href="mailto:diego.castano@outlook.com" target="_blank"><span class="fi-mail"> Email</a>
+              </div>
+            </section>
+
+            <footer>
+             <span class"center">
+               Copyright Diego Castaño <?php echo date("Y"); ?> · Powered by <a href="http://foundation.zurb.com/" target="_blank">Foundation</a>
+             </span>
+           </footer>
+
+
+           <script src="bower_components/jquery/dist/jquery.min.js"></script>
+           <script src="js/parallax.min.js"></script>
+           <script src="bower_components/foundation/js/foundation.min.js"></script>
+           <script src="js/app.js"></script>
+         </body>
+         </html>

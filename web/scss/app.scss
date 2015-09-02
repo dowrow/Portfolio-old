@@ -47,7 +47,27 @@
 	align: center;
 }
 
-#avatar {
+#polydot {
+	background-image:url('../img/polydot.png');
+	background-size: contain;
+	background-repeat:no-repeat;
+	min-height: 667px;	
+}
+
+#comingsoon {
+	line-height:150px;
+	font-size: 14pt;
+	text-align:center;
+	height:150px;
+	width:150px;
+	background-color: #f49595;
+	color:white;
+	margin-top: 50px;
+	margin-bottom:50px;
+	font-weight: 40;
+}
+
+.round {
 	border-radius:50%;
 }
 
